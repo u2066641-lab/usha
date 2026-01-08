@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tamil Cinema Booking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+<style>
+body{
+  margin:0;
+  background:#070707;
+  color:white;
+  font-family:'Montserrat',sans-serif;
+}
+header{
+  background:linear-gradient(90deg,#ff0057,#ff8c00);
+  padding:20px;
+  text-align:center;
+  font-size:30px;
+  font-weight:600;
+}
+.movies{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+  padding:30px;
+}
+.movie{
+  background:#111;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 0 25px rgba(255,0,87,.4);
+  transition:.4s;
+}
+.movie:hover{transform:scale(1.05);}
+.movie img{
+  width:100%;
+  height:360px;
+  object-fit:cover;
+}
+.details{
+  padding:15px;
+}
+.details h3{color:#ff8c00;}
+.btns a{
+  display:inline-block;
+  margin:5px;
+  padding:10px 18px;
+  background:#ff0057;
+  color:white;
+  text-decoration:none;
+  border-radius:20px;
+  font-size:14px;
+}
+.btns a:hover{background:#ff8c00;}
+footer{
+  text-align:center;
+  padding:15px;
+  background:#111;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>🎬 Tamil Cinema Ticket Booking</header>
+
+<div class="movies">
+
+<div class="movie">
+<img src="https://via.placeholder.com/400x600.png?text=Leo+Poster">
+<div class="details">
+<h3>LEO</h3>
+<p>Action | Thriller</p>
+<div class="btns">
+<a href="https://www.youtube.com/results?search_query=leo+tamil+trailer" target="_blank">▶ Trailer</a>
+<a href="#">🎟 Book Tickets</a>
+</div>
+</div>
+</div>
+
+<div class="movie">
+<img src="https://via.placeholder.com/400x600.png?text=Jailer+Poster">
+<div class="details">
+<h3>JAILER</h3>
+<p>Action | Drama</p>
+<div class="btns">
+<a href="https://www.youtube.com/results?search_query=jailer+tamil+trailer" target="_blank">▶ Trailer</a>
+<a href="#">🎟 Book Tickets</a>
+</div>
+</div>
+</div>
+
+<div class="movie">
+<img src="https://via.placeholder.com/400x600.png?text=Vikram+Poster">
+<div class="details">
+<h3>VIKRAM</h3>
+<p>Action | Crime</p>
+<div class="btns">
+<a href="https://www.youtube.com/results?search_query=vikram+tamil+trailer" target="_blank">▶ Trailer</a>
+<a href="#">🎟 Book Tickets</a>
+</div>
+</div>
+</div>
+
+<div class="movie">
+<img src="https://via.placeholder.com/400x600.png?text=Master+Poster">
+<div class="details">
+<h3>MASTER</h3>
+<p>Action | Drama</p>
+<div class="btns">
+<a href="https://www.youtube.com/results?search_query=master+tamil+trailer" target="_blank">▶ Trailer</a>
+<a href="#">🎟 Book Tickets</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<footer>© 2026 Tamil Cinema Booking | Book tickets & enjoy legally ❤️</footer>
+
+</body>
+</html>
